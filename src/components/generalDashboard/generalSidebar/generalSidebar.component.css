@@ -1,0 +1,67 @@
+.auth {
+    display: flex;
+    flex-direction: column;
+    height:100%;
+}
+
+.sidebar-flex-container{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.sidebar-flex-item{
+    /* border: 2px solid; */
+    margin: 3px;
+}
+.dropdown-container {
+    display: block;
+    background-color: gainsboro;
+    padding-left: 22px;
+}
+.sidebar-item:hover{
+    cursor: pointer;
+    /* background-color: gainsboro; */
+    background-color:rgba(var(--palette-primary-tint-20,199, 224, 244),1);
+}
+.item-active {
+    background-color: rgba(222,236,249,1);
+    /* color: white; */
+  }
+  
+/*.dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    display: block; 
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+}*/
+/* .dropdown-btn:hover{
+    background-color: gainsboro;
+} */
+/* .active {
+    background-color: gainsboro;
+} */
+/* .dropdown-icon-ticket{
+    position: relative;
+    left: 140px;
+}
+.dropdown-icon-basicDefinition{
+    position: relative;
+    left: 80px;
+} */
+::-webkit-scrollbar {
+    width: 5px !important;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent !important; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: gainsboro !important; 
+  }

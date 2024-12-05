@@ -1,0 +1,17 @@
+/* .custom-file .custom-file-label::before{
+    font-size: 0;
+    content: '' !important;
+}
+.custom-file .custom-file-label::after{
+    font-size: 0;
+    content: '' !important;
+} */
+.custom-file-label{
+    text-align: right;
+}
+.custom-file-input:lang(en)~.custom-file-label::after{
+    text-align: center;
+    overflow: hidden;
+    right: 88%;
+    width: 12%;
+}

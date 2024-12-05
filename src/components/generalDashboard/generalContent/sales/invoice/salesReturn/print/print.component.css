@@ -1,0 +1,48 @@
+
+
+.licenseCol  {
+ text-align: end;
+ width: 20px;
+ vertical-align: middle;
+  direction: ltr;
+  padding: 0px;
+}
+.licenseName{
+  
+  white-space: nowrap;
+  position: absolute;
+  left: -100px !important;
+  top: 50% !important;
+  direction: ltr;
+  text-align: center;
+  transform: rotate(270deg);
+
+}
+
+  @media print{
+
+    body * {
+      visibility:hidden;
+  }
+  #printSection, #printSection * {
+      visibility:visible;
+  }
+  #printSection {
+      position:absolute;
+      left:0;
+      top:0;
+  }
+    .printPageFooter{
+      page-break-after: always;
+      page-break-inside: avoid !important;
+    }
+    tr *{
+      page-break-inside: avoid !important;
+    }
+    .licenseName  {
+      position: fixed;
+    }
+
+  }
+
+

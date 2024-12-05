@@ -1,0 +1,87 @@
+.dashboardBoxCard:hover{
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transform: scale(1.1, 1.1);
+}
+.dashboardBoxCard{
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    transition: box-shadow 0.3s ease-in-out;
+}
+.dashboardBoxCard:hover::after {
+    content: "";
+    border-radius: 5px;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  }
+/* #region  [-responsive -] */
+
+@media only  screen and (min-width: 576px) and (max-width: 768px){
+    .flex-fill{
+        font-size: 20px !important
+    }
+    .dashboardBoxCardIcon {
+        font-size: 18px;
+    }
+    .extraInfo{
+        font-size: 14px;
+    }
+
+}
+
+/* --------------------------- */
+@media only  screen and (min-width: 769px) and (max-width: 992px){
+    .flex-fill{
+        font-size: 15px !important
+    }
+    .dashboardBoxCardIcon {
+        font-size: 25px;
+    }
+    .extraInfo{
+        font-size: 20px;
+    }
+}
+/* --------------------------- */
+@media only  screen and (min-width: 993px) and (max-width: 1200px){
+    .flex-fill{
+        font-size: 20px !important
+    }
+    .dashboardBoxCardIcon{
+        font-size: 30px;
+    }
+    .extraInfo{
+        font-size: 20px;
+    }
+}
+/* --------------------------- */
+@media only  screen and (min-width: 1201px)and (max-width: 1600px){
+    .flex-fill{
+        font-size: 20px !important
+    }
+    .dashboardBoxCardIcon{
+        font-size: 35px;
+    }
+    .extraInfo{
+        font-size: 20px;
+    }
+}
+/* --------------------------- */
+@media only  screen and (min-width: 1601px){
+    .flex-fill{
+        font-size: 20px !important
+    }
+    .dashboardBoxCardIcon{
+        font-size: 60px;
+    }
+    .extraInfo{
+        font-size: 20px;
+    }
+}
+
+/* #endregion */

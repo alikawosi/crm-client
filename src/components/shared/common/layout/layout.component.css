@@ -1,0 +1,14 @@
+.main-layout{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.sidebar-line{
+    border-right: 0.5px solid rgb(175, 175, 175);
+}
+
+.main-flex-container{
+    /* background-color: orange; */
+    display: block;
+    height: 100vh;
+}
+

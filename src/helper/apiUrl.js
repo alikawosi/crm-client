@@ -1,0 +1,9 @@
+export const baseUrl='http://localhost:5002/';
+//export const baseUrl='http://server.app.em:7070/';
+export const accountUrl=baseUrl+'account/';
+export const infrastructureUrl= baseUrl + 'wapi/v1/';
+export const materialUrl= baseUrl + 'wapi/v1/';
+export const warehouseUrl= baseUrl + 'wapi/v1/';
+export const salesUrl= baseUrl + 'wapi/v1/';
+export const productUrl= baseUrl + 'wapi/v1/';
+export const crmUrl= baseUrl + 'wapi/v1/'; 

@@ -1,0 +1,53 @@
+.account-circle{
+    background-color: mediumblue;
+    border-radius: 50%;
+    width: 4vh;
+    height: 4vh;
+    line-height: 3.5vh;
+    color: white;
+    cursor: pointer;
+}
+
+.flex-box{
+    display: flex;
+    position: absolute;
+    right: 15px;
+}
+
+.notif{
+    position: absolute;
+    right: 60px;
+    top:0;
+
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 320px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    left: 0;
+    top: 50px;
+    z-index: 1;
+  }
+  .show {display: block;}
+  .account-circle-big{
+    background-color: mediumblue;
+    border-radius: 50%;
+    width: 85px;
+    height: 85px;
+    line-height: 82px;
+    color: white;
+    cursor: pointer;
+    font-size: 30px;
+}
+.signout:hover{
+    background-color: gainsboro;
+}
+@media screen and (min-width: 600px) {
+    .btn-sidebar{
+        display: none !important;
+    }
+  }
+ 

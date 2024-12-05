@@ -1,0 +1,16 @@
+.nav-tabs .nav-link.active{
+    background-color: transparent !important;
+    border-color: transparent !important;
+    border-bottom: 2px solid blue !important;
+}
+.nav-tabs .nav-link:hover {
+    border-color: transparent transparent blue transparent !important;
+    border-bottom: 2px solid blue !important;
+    cursor: pointer;
+}
+.active{
+    background-color: transparent !important;
+}
+.sidebar-flex-item{
+    scrollbar-width: none;
+}

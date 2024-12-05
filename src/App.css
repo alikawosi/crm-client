@@ -1,0 +1,236 @@
+.App {
+  text-align: center;
+}
+ 
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+ 
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+ 
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+ 
+.App-link {
+  color: #61dafb;
+}
+ 
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+ 
+@font-face {
+  font-family: 'crmPersionFont';
+  /*font-style: normal;*/
+  font-weight: 400;
+  src: url('./helper/font/Yekan.ttf') format('truetype') /* Safari, Android, iOS */
+  
+}
+ 
+.crm-persian-font{
+  font-family: 'crmPersionFont';
+}
+ 
+.item-container-disable-style{
+  pointer-events: none; 
+  opacity:0.5;
+  cursor: none;
+ }
+ 
+ /* added by DNE */
+ 
+.submit-button-style {
+  background-color: #0168b8 !important;
+  border-radius: 2px;
+}
+.cancel-button-style {
+  background-color: #0000000f !important;
+  border-radius: 2px;
+  color: #000000e6 !important;
+  border:none
+}
+.reacstrap-container {
+  height: 100vh;
+  width: 100%;
+}
+
+/* #region  [- content -] */
+
+.content-header-row {
+  height: 7vh;
+  width: 100%;
+  border-bottom:1px solid rgba(0,0,0,.1);
+}
+
+.content-header-col {
+  direction: rtl;
+  text-align: right;
+}
+
+.content-header-div{
+  float: right;
+  width: 48px;
+  height: 48px;
+  background: linear-gradient(60deg, rgb(180, 204, 222), rgb(95, 217, 244));
+  border-radius: 50%;
+  align-content: center;
+
+}
+
+.content-header-title{
+  height: 48px;
+  line-height: 48px;
+  font-size: 25px;
+}
+
+.content-button-row{
+  height: 6vh;
+  width: 100%;
+  align-content: center;
+}
+
+.content-box-row{
+  height: 86vh;
+  width: 100%;
+}
+
+.content-button-right-col {
+  text-align: right;
+}
+
+.content-button-left-col {
+  text-align: left;
+}
+/* #endregion */
+
+.grid {
+  height: 84vh;
+  width: 100%; 
+}
+
+/* #region  [- modal -] */
+
+.modal-header-row{
+  border-bottom: 1px solid #f0f0f0
+}
+
+.modal-header-col{
+  direction: rtl;
+  text-align: right
+}
+
+.modal-header-title{
+  height: 48px;
+  line-height: 48px;
+  font-size: 17px;
+  font-weight: bold;
+}
+.modal-content-col{
+text-align: right;
+}
+/* #endregion */
+
+/* #region  [- reactstrap form -] */
+
+.form-header-row{
+  height:7vh;
+  width:100%;
+  border-bottom:1px solid #f0f0f0;
+  color:"#8A2BE2";
+}
+.form-header-col{
+  direction: rtl;
+   text-align: right;
+}
+
+.form-header-title{
+  height: 48px;
+  line-height: 48px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.reactstrap-form{
+  height: 86vh;
+  width: 96%;
+  padding-right: 15px;
+  margin-top: 2px;
+}
+
+.reactstrap-formGroup{
+  text-align:right;
+}
+
+.form-mandatory-field-star{
+    color: red;
+    font-size: 130%;
+    font-weight: 600;
+}
+
+.form-button-row{
+  height:6vh;
+  width:100%;
+  border-top:1px solid #f0f0f0;
+  align-content: center;
+}
+
+.custom-switch .custom-control-input:checked~.custom-control-label::after{
+  transform:translateX(-18px) !important;
+}
+
+.custom-switch .custom-control-label::after{
+  transform:translateX(-2px) !important;
+}
+
+.custom-switch .custom-control-label::before{
+width: 30px !important;
+}
+
+/* #endregion */
+
+.ant-drawer-rtl .ant-drawer-close{
+  /* right: 0px !important;
+  left: 0px !important; */
+  padding: 15px 0 10px 15px;
+}
+
+/* AttachFile Input */
+.custom-file-label{
+  text-align: right;
+}
+.custom-file-input:lang(en)~.custom-file-label::after{
+  text-align: center;
+  overflow: hidden;
+  right: 88%;
+  width: 12%;
+}
+
+/* AgGrid */
+
+.ag-body-horizontal-scroll-viewport{
+overflow-x: scroll !important;
+}
+.ag-center-cols-viewport{
+overflow-x: scroll !important;
+}
+
+
+
